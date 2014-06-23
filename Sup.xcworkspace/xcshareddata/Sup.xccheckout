@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6053A822-FAFC-4557-B5F4-B5A5FB2B56B1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Sup</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2137FEEF-160F-4C99-BD92-8E4FB12F2050</key>
+		<string>ssh://github.com/ParsePlatform/SupPrivate.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SupPrivate/Sup.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2137FEEF-160F-4C99-BD92-8E4FB12F2050</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/ParsePlatform/SupPrivate.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2137FEEF-160F-4C99-BD92-8E4FB12F2050</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2137FEEF-160F-4C99-BD92-8E4FB12F2050</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SupApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
