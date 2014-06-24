@@ -38,6 +38,7 @@
 		E7A0F7FC195896E70081F4CF /* JCNotificationBannerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A0F7F0195896E70081F4CF /* JCNotificationBannerWindow.m */; };
 		E7A0F7FD195896E70081F4CF /* JCNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A0F7F2195896E70081F4CF /* JCNotificationCenter.m */; };
 		E7EBBFBB1956246F00326828 /* AddFriendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7EBBFBA1956246F00326828 /* AddFriendTableViewCell.m */; };
+		E7F610D21959ED29002C4188 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = E7F610D11959ED29002C4188 /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		E7A0F7F2195896E70081F4CF /* JCNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JCNotificationCenter.m; path = Vendor/JCNotificationBanner/JCNotificationCenter.m; sourceTree = "<group>"; };
 		E7EBBFB91956246F00326828 /* AddFriendTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendTableViewCell.h; sourceTree = "<group>"; };
 		E7EBBFBA1956246F00326828 /* AddFriendTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendTableViewCell.m; sourceTree = "<group>"; };
+		E7F610D11959ED29002C4188 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE.txt; path = Vendor/JCNotificationBanner/LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 				E7A0F7F0195896E70081F4CF /* JCNotificationBannerWindow.m */,
 				E7A0F7F1195896E70081F4CF /* JCNotificationCenter.h */,
 				E7A0F7F2195896E70081F4CF /* JCNotificationCenter.m */,
+				E7F610D11959ED29002C4188 /* LICENSE.txt */,
 			);
 			name = JCNotificationBanner;
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7F610D21959ED29002C4188 /* LICENSE.txt in Resources */,
 				E7347E8E1954E6FC00D4FA3C /* Sup.aiff in Resources */,
 				E79AFAF51953FBB2003E32C6 /* Main.storyboard in Resources */,
 				E79AFAF71953FBB2003E32C6 /* Images.xcassets in Resources */,

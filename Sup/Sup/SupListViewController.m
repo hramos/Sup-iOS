@@ -197,26 +197,15 @@
 
 #pragma mark - SupListViewController
 
-- (PFQuery *)queryForTable {
-    PFQuery *queryReceived = [PFQuery queryWithClassName:@"Sup"];
-    [queryReceived whereKey:@"toUser" equalTo:[PFUser currentUser]];
-
-    PFQuery *querySent = [PFQuery queryWithClassName:@"Sup"];
-    [querySent whereKey:@"fromUser" equalTo:[PFUser currentUser]];
-
-    PFQuery *query = [PFQuery orQueryWithSubqueries:@[queryReceived, querySent]];
+- (void)loadObjects {
+    PFQuery *query = [PFQuery queryWithClassName:@"Sup"];
     [query orderByDescending:@"updatedAt"];
     query.cachePolicy = kPFCachePolicyCacheThenNetwork;
     
     if (_objects.count != 0) {
         query.cachePolicy = kPFCachePolicyNetworkOnly;
     }
-    
-    return query;
-}
 
-- (void)loadObjects {
-    PFQuery *query = [self queryForTable];
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
         if (!error) {
             [_objects removeAllObjects];

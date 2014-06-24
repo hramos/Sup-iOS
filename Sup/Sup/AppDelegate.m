@@ -23,7 +23,7 @@
 #pragma mark - UIApplicationDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [Parse setApplicationId:YOUR_APP_ID clientKey:YOUR_CLIENT_KEY];
+    [Parse setApplicationId:@"T6Nn5MaEdkA4caf8aVIlAU8z9VV0ekiHZOCutwZg" clientKey:@"6WfUjg71MfPO0N4BEYXfnN0gHq0lfX60KGBtuH4Z"];
 
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
 
