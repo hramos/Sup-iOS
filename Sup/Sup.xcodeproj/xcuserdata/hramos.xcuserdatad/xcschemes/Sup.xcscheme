@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "0600"
-   version = "1.7">
+   version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -92,32 +92,5 @@
    <ArchiveAction
       buildConfiguration = "Release"
       revealArchiveInOrganizer = "NO">
-      <PostActions>
-         <ExecutionAction
-            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
-            <ActionContent
-               title = "Run Script"
-               scriptText = "AdHoc_TITLE=&quot;Sup&quot;&#10;AdHoc_IDENTITY=&quot;iPhone Distribution: Parse Inc.&quot;&#10;AdHoc_PROVISONING_PROFILE=&quot;/Users/hramos/Library/MobileDevice/Provisioning Profiles/89A47CA8-FB47-464D-B67A-62E62ECDBEC2.mobileprovision&quot;&#10;AdHoc_DESTDIR=&quot;/Users/hramos/git/SupApp/parse/public/&quot;&#10;AdHoc_IPA_URL=&quot;https://sup.parseapp.com/Sup.ipa&quot;&#10;&#10;mkdir -p $AdHoc_DESTDIR&#10;&#10;export AdHoc_TITLE AdHoc_IDENTITY AdHoc_PROVISONING_PROFILE AdHoc_DESTDIR AdHoc_IPA_URL&#10;&#10;# May need to include the path&#10;/Users/hramos/git/SupApp/parse/adHocGenerate/adHocGenerate&#10;cd /Users/hramos/git/SupApp/parse/ &amp;&amp; parse deploy">
-               <EnvironmentBuildable>
-                  <BuildableReference
-                     BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "E79AFAE21953FBB2003E32C6"
-                     BuildableName = "Sup.app"
-                     BlueprintName = "Sup"
-                     ReferencedContainer = "container:Sup.xcodeproj">
-                  </BuildableReference>
-               </EnvironmentBuildable>
-            </ActionContent>
-         </ExecutionAction>
-         <ExecutionAction
-            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.SendEmailAction">
-            <ActionContent
-               title = "Send Email"
-               emailRecipient = "hramos@fb.com"
-               emailSubject = "New Build Available"
-               attachLogToEmail = "NO">
-            </ActionContent>
-         </ExecutionAction>
-      </PostActions>
    </ArchiveAction>
 </Scheme>
